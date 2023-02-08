@@ -4,7 +4,6 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   i18n,
-  distDir: 'build',
   images: {
     formats: ['image/avif'],
     minimumCacheTTL: 60,
