@@ -16,11 +16,9 @@ class MyDocument extends Document<Props> {
       <Html lang={currentLocale} prefix="og: http://ogp.me/ns#" className="scroll-smooth">
         <Head>
         <meta charSet="utf-8" />
-        {/* <meta content="index, follow" name="robots" />
-        <meta name="msvalidate.01" content="1B6029FB62CB52081AEED2AF3995EBFE" />   
-        hjhjhj
-        */}
-        <meta content="index, follow" name="robots" />      
+        <meta name="msvalidate.01" content="B5BCE421892185260D045E1067A1A9D4" />
+        <meta content="index, follow" name="robots" />  
+        <meta name="google-site-verification" content="zpE2OS1Dt9GRowS3xMM12_58AdxNJj-u-3ChHV2LopQ" />   
         <meta content="#fff" name="theme-color" media="(prefers-color-scheme: light)" />
         <meta content="#000" name="theme-color" media="(prefers-color-scheme: dark)" />
         <meta content="WebSite" property="og:type" />

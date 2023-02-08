@@ -13,7 +13,7 @@ export default function HeaderApp() {
           <h1 className="text-3xl lg:text-6xl leading-tight max-w-3xl font-bold tracking-tight mt-6 mx-auto">
             {t('title')}
           </h1>
-          <p className="max-w-3xl mx-auto lg:text-xl text-gray-600 mt-3 leading-normal font-light dark:font-normal dark:text-black">
+          <p className="max-w-3xl mx-auto lg:text-xl text-gray-600 mt-3 leading-normal font-light dark:font-normal">
             {t('summary')}
           </p>
           <p className="max-w-3xl mx-auto lg:text-xl text-gray-600 mt-3 leading-normal font-light">
