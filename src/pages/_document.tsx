@@ -18,7 +18,7 @@ class MyDocument extends Document<Props> {
         <meta charSet="utf-8" />
         {/* <meta content="index, follow" name="robots" />
         <meta name="msvalidate.01" content="1B6029FB62CB52081AEED2AF3995EBFE" />   
-        
+        hjhjhj
         */}
         <meta content="index, follow" name="robots" />      
         <meta content="#fff" name="theme-color" media="(prefers-color-scheme: light)" />
