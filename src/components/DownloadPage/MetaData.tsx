@@ -6,7 +6,7 @@ const MetaData = ( ) =>  {
     const { t } = useTranslation('download')
   return (
     <Head>
-    <title>{t('title')} मुफ्त डाउनलोड</title>
+    <title>{t('title')}</title>
     <meta content={t('dec')} name="description" />
     <link rel="canonical" href={`${process.env.NEXT_PUBLIC_HOST}${t('canonical')}/download`} />
     {/* <link rel="amphtml" href={`${process.env.NEXT_PUBLIC_HOST}${t('canonical')}/amp`} /> */}
@@ -15,7 +15,7 @@ const MetaData = ( ) =>  {
      <link rel="alternate" hrefLang="hi" href={`${process.env.NEXT_PUBLIC_HOST}/hi/download`} />
     <meta content={`${process.env.NEXT_PUBLIC_HOST}${t('canonical')}`} property="og:url" />
     <meta content={`${process.env.NEXT_PUBLIC_HOST}/img/PicsArt_Og.webp`} property="og:image" name="twitter:image" itemProp="image primaryImageOfPage" />
-    <meta content={`${t('title')}  मुफ्त डाउनलोड`} name="twitter:title" property="og:title" itemProp="name" />
+    <meta content={`${t('title')}`} name="twitter:title" property="og:title" itemProp="name" />
     <meta content={t('dec')} name="twitter:description" property="og:description" itemProp="description" />  
     <meta content={t('updatedAt')} property="article:published_time" />
     <meta content={t('createdAt')} property="article:published_time" />
