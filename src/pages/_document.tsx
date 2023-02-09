@@ -15,7 +15,7 @@ class MyDocument extends Document<Props> {
     return (
       <Html lang={currentLocale} prefix="og: http://ogp.me/ns#" className="scroll-smooth">
         <Head>
-        <meta charSet="utf-8" />
+        {/* <meta charSet="utf-8" /> */}
         <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=3,user-scalable=yes" name="viewport" />
         <meta name="msvalidate.01" content="B5BCE421892185260D045E1067A1A9D4" />
         <meta content="index, follow" name="robots" />  
